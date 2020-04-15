@@ -22,7 +22,7 @@ def consolidate_cart(cart)
       :item => "AVOCADO",
       :price => 3.00,
       :clearance => true,
-      :counter => 3
+      :counter => 3,
     }
     end
     new_cart
