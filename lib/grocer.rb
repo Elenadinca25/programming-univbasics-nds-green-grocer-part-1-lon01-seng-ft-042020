@@ -18,12 +18,12 @@ def consolidate_cart(cart)
       new_cart << cart_cart_item
     counter += 1
   else
-    new_cart {
+    new_cart [
       {:item => "AVOCADO"},
       {:price => 3.00},
       {:clearance => true},
       {:counter => 3},
-    }
+    ]
     end
     new_cart
   end
