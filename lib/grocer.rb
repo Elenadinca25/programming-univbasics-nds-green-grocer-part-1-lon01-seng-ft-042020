@@ -19,10 +19,10 @@ def consolidate_cart(cart)
     counter += 1
   else
     new_cart {
-      :item => "AVOCADO",
-      :price => 3.00,
-      :clearance => true,
-      :counter => 3,
+      {:item => "AVOCADO"},
+      {:price => 3.00},
+      {:clearance => true},
+      {:counter => 3},
     }
     end
     new_cart
